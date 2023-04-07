@@ -1,0 +1,22 @@
+Navigation bar - This should include links to the different sections of the website, such as the home page, course overview, lesson plans, and contact information.
+Home page - This should provide a brief introduction to the course and what it covers, along with a call to action to enroll in the course.
+Course overview - This section should provide a detailed description of the course, including the topics covered, the level of difficulty, and the length of the course.
+Lesson plans - This section should provide a breakdown of the individual lessons, including the objectives and materials needed for each lesson.
+Testimonials - This section should include testimonials from past students who have taken the course.
+Contact information - This should include the instructor's contact information, such as an email address and phone number, as well as a form for prospective students to contact the instructor with any questions.
+Enrollment - This should include a form for students to enroll in the course, including a payment gateway for course fees.
+Student Login - A section for students to access their course materials, lessons, and assessments.
+Discussion forum - A section for students to interact and engage with the instructor and other students.
+Technical support - A section for students to get technical support related to the course or the website.
+
+//Home page format
+A catchy headline or tagline that quickly communicates the benefits of the course.
+A brief overview of the course, including the topics covered, the level of difficulty, and the length of the course.
+An introduction to the instructor, including their qualifications and experience teaching English.
+A video or image that gives a preview of what the course will be like.
+A list of the key features of the course, such as interactive lessons, personalized feedback, and multimedia materials.
+Testimonials from past students who have taken the course.
+A call to action, such as a button or link, to enroll in the course.
+A section that highlights any special promotions or discounts currently available.
+A section that provides information about the technical requirements for the course, such as the software and hardware needed to participate.
+A section that provides information about the customer support available, such as a phone number, email address, or online form.

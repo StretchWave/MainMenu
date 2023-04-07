@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    background-color: #25252a;
+}
+u{
+    background-color: #1e1e2000;
+}
+h1
+{
+    background-color: #1e1e2000;
+}
+body
+{
+    margin: 0px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.Button1
+{
+    border-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: #25252a;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-width: 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+.Button1:hover
+{
+    background-color: rgb(62, 198, 71);
+    color: #25252a;
+    border-width: 0px;;
+    transition: all 0.3s;
+}
+.Button1:after
+{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left: 0%;
+    right: 0%;
+    bottom:0;
+    opacity:0;
+    content:'';
+    background-color: white;
+    border-radius: 2px;
+}
+.Button1:active:after
+{
+    transition: 0s all ease;
+    top:0;
+    left: 50%;
+    right: 50%;
+    bottom:0;
+    opacity:1;
+    z-index: -1;
+    color: #3ec647 ;
+}
+.Button2
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #25252a00 ;
+    border-radius: 25px;
+    background-image: url("Menu1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+#MenuBarOpenButton
+{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+}
+.Button2:hover
+{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.nav-open .nav
+{
+    transform: translatex(0);
+}
+.nav
+{
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #303032;
+    transform: translateX(-300px);
+    transition: 0.2s;
+    overflow: hidden; 
+}
+.main
+{
+    transition: transform 0.2s;
+}
+.MenuClose
+{
+    height: 55px;
+    width: 55px;
+    border: none;
+    border-radius: 25px;
+    background-image: url("MenuCloseIcon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #36363a00;
+    transition: 0.3s;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.MenuClose:hover
+{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.Text1
+{
+    color: white;
+    font-size: 2rem;
+    margin-left: 10px;
+    background-color: #30303200;
+    text-align: center;
+}
+.Text2
+{
+    color: white;
+    background-color: #1e1e2000;
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.Text3
+{
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+    padding-left: 70px;
+}
+.Text4
+{
+    background-color: #1e1e2000;
+    color: #25252a;
+    font-size: 25px;
+    width: 55%;
+    font-weight: 600;
+}
+.Text5
+{
+    background-color: #1e1e2000;
+    color: #ffffff;
+    font-size: 25px;
+    width: 55%;
+    font-weight: 600;
+}
+.Text6
+{
+    color: white;
+    background-color: #1e1e2000;
+    font-size: 28px;
+    line-height: 0.1;
+}
+.Text7
+{
+    color: white;
+    background-color: #1e1e2000;
+    font-size: 25px;
+    line-height: 0.1;
+    padding-left: 78%;
+}
+.Text8
+{
+    color: #cdd1ab;
+    background-color: #1e1e2000;
+    font-size: 40px;
+    line-height: 0.1;
+}
+.Text9
+{
+    color: #cdd1ab;
+    background-color: #1e1e2000;
+    font-size: 25px;
+    line-height: 1;
+    padding-right: 10%;
+}
+.Text10
+{
+    background-color: #1e1e2000;
+    color: #25252a;
+    font-size: 25px;
+    width: 55%;
+    font-weight: 600;
+    
+}
+.Text11
+{
+    background-color: #1e1e2000;
+    color: #25252a;
+    font-size: 25px;
+    width: 55%;
+    font-weight: 600;
+    padding-left: 2.5%;
+}
+.Text12
+{
+    color: rgb(152, 152, 152);
+    background-color: #1e1e2000;
+    font-size: 25px;
+    line-height: 0.5;
+    padding-left: 2.5%;
+    padding-top: 2.5%;
+}
+.Text13
+{
+    color: rgb(189, 189, 189);
+    background-color: #1e1e2000;
+    font-size: 15px;
+    line-height: 0.5;
+    padding-left: 2.5%;
+}
+.href1
+{
+    color: rgb(161, 158, 158);
+    text-decoration: none;
+    line-height: 0.5;
+}
+.MenuButton1
+{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.MenuButton1:hover
+{
+    background-color: rgba(255, 255, 255, 0.471);
+    transition: 0.3s;
+}
+.Div1
+{
+    background-color: #1e1e20;
+    height: 83.5%;
+    width: 45%;
+    padding-top: 100px;
+}
+.Div2
+{
+    background-image: url("backgorundpc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 790px;
+    color: white;
+    overflow: hidden;
+    border: none;
+}
+.Logo1
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.Div3
+{
+    width: 100%;
+    height: 600px;
+    background-color: #ECF87F;
+    border: none;
+    background-image:url();
+    padding-left: 40%;
+    padding-top: 10%;
+}
+.Div4
+{
+    width: 100%;
+    height: 700px;
+    background-color:#3D550C;
+    border: none;
+    background-image:url();
+    padding-left: 10%;
+    padding-top:1%;
+}
+.Div5
+{
+    width: 100%;
+    height: 700px;
+    background-color:#D1E2C4;
+    border: none;
+    background-image:url();
+    padding-left: 10%;
+    padding-top:1%;
+}
+.Div6
+{
+    width: 100%;
+    height: 300px;
+    background-color:#25252a;
+    border: none;
+    background-image:url();
+}
+.progress
+{
+    background-color: #25252a;
+    border-radius: 5px;
+    height: 5px;
+    width: 80%;
+    color: aliceblue;
+}
+  
+.bar
+{
+    background-color: #ECF87F;
+    height: 100%;
+    width: 0;
+    color: aliceblue;
+    transition: width 0.5s ease-in-out;
+}
