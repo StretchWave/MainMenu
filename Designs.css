@@ -227,26 +227,21 @@ body
 }
 .Text12
 {
-    color: rgb(152, 152, 152);
+    color: rgb(255, 255, 255);
     background-color: #1e1e2000;
     font-size: 25px;
-    line-height: 0.5;
-    padding-left: 2.5%;
-    padding-top: 2.5%;
 }
 .Text13
 {
     color: rgb(189, 189, 189);
     background-color: #1e1e2000;
     font-size: 15px;
-    line-height: 0.5;
     padding-left: 2.5%;
 }
 .href1
 {
     color: rgb(161, 158, 158);
     text-decoration: none;
-    line-height: 0.5;
 }
 .MenuButton1
 {
@@ -328,6 +323,16 @@ body
     background-color:#25252a;
     border: none;
     background-image:url();
+    display: flex;
+    justify-content: space-between;
+}
+.SubDiv1
+{
+    padding-left: 2.5%;
+}
+.SubDiv2
+{
+    padding-right: 2.5%;
 }
 .progress
 {
