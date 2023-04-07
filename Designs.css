@@ -272,7 +272,7 @@ body
 .Div2 {
     background-image: url("backpic1.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size:cover;
     background-position: center;
     height: 790px;
     width: 100%;
@@ -287,7 +287,7 @@ body
     border: none;
     background-image:url("backpic2.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-left: 40%;
     padding-top: 10%;
 }
@@ -299,7 +299,7 @@ body
     border: none;
     background-image:url("backpic3.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-left: 10%;
     padding-top:1%;
 }
@@ -311,7 +311,7 @@ body
     border: none;
     background-image:url("backpic4.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-left: 10%;
     padding-top:1%;
 }
