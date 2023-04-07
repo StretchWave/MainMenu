@@ -277,9 +277,9 @@ body
 }
 .Div2
 {
-    background-image: url("");
+    background-image: url("backpic1.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     height: 790px;
     width: 100%;
     color: white;
