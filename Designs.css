@@ -4,7 +4,10 @@
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     line-height: 1.5;
-    background-color: #25252a;
+    background-color: #08080c;
+}
+a{
+    background-color: #08080c00;
 }
 u{
     background-color: #1e1e2000;
@@ -211,7 +214,6 @@ body
     background-color: #1e1e2000;
     color: #25252a;
     font-size: 25px;
-    width: 55%;
     font-weight: 600;
     
 }
@@ -220,7 +222,6 @@ body
     background-color: #1e1e2000;
     color: #25252a;
     font-size: 25px;
-    width: 55%;
     font-weight: 600;
     padding-left: 2.5%;
 }
@@ -232,14 +233,14 @@ body
 }
 .Text13
 {
-    color: rgb(189, 189, 189);
+    color: rgb(255, 255, 255);
     background-color: #1e1e2000;
     font-size: 15px;
     padding-left: 2.5%;
 }
 .href1
 {
-    color: rgb(161, 158, 158);
+    color: rgb(199, 195, 195);
     text-decoration: none;
 }
 .MenuButton1
@@ -257,13 +258,6 @@ body
     background-color: rgba(255, 255, 255, 0.471);
     transition: 0.3s;
 }
-.Div1
-{
-    background-color: #1e1e20;
-    height: 83.5%;
-    width: 45%;
-    padding-top: 100px;
-}
 .Logo1
 {
     position: absolute;
@@ -275,24 +269,25 @@ body
     cursor: pointer;
     border-radius: 25px;
 }
-.Div2
-{
+.Div2 {
     background-image: url("backpic1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-position: center;
     height: 790px;
     width: 100%;
     color: white;
     overflow: hidden;
     border: none;
-}
+  }
 .Div3
 {
     width: 70%;
     height: 600px;
-    background-color: #ECF87F;
     border: none;
-    background-image:url();
+    background-image:url("backpic2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-left: 40%;
     padding-top: 10%;
 }
@@ -302,7 +297,9 @@ body
     height: 700px;
     background-color:#3D550C;
     border: none;
-    background-image:url();
+    background-image:url("backpic3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-left: 10%;
     padding-top:1%;
 }
@@ -312,7 +309,9 @@ body
     height: 700px;
     background-color:#D1E2C4;
     border: none;
-    background-image:url();
+    background-image:url("backpic4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding-left: 10%;
     padding-top:1%;
 }
@@ -322,17 +321,19 @@ body
     height: 300px;
     background-color:#25252a;
     border: none;
-    background-image:url();
     display: flex;
     justify-content: space-between;
 }
 .SubDiv1
 {
     padding-left: 2.5%;
+    background-color: #08080c;
+    width: 100%;
 }
 .SubDiv2
 {
     padding-right: 2.5%;
+    background-color: #08080c;
 }
 .progress
 {
