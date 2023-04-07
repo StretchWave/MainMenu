@@ -166,7 +166,6 @@ body
     background-color: #1e1e2000;
     color: #25252a;
     font-size: 25px;
-    width: 55%;
     font-weight: 600;
 }
 .Text5
@@ -278,7 +277,7 @@ body
 }
 .Div2
 {
-    background-image: url("backgorundpc.png");
+    background-image: url("");
     background-repeat: no-repeat;
     background-size: contain;
     height: 790px;
@@ -289,7 +288,7 @@ body
 }
 .Div3
 {
-    width: 100%;
+    width: 70%;
     height: 600px;
     background-color: #ECF87F;
     border: none;
