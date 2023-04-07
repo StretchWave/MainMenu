@@ -282,6 +282,7 @@ body
     background-repeat: no-repeat;
     background-size: contain;
     height: 790px;
+    width: 100%;
     color: white;
     overflow: hidden;
     border: none;
@@ -351,14 +352,3 @@ body
     color: aliceblue;
     transition: width 0.5s ease-in-out;
 }
-
-
-@media only screen and (max-width: 768px) {
-    .Text1,.Text2,.Text3,.Text4,.Text5,.Text6,.Text7,.Text8,.Text9,.Text10,.Text11,.Text12,.Text13{
-      font-size: 90%;
-    }
-    .Div2,.Div3,.Div4,.Div5,.Div6
-    {
-        height: 90%;
-    }
-  }
